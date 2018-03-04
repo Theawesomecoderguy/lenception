@@ -2,11 +2,11 @@ import items
 
 class Player:
 	def __init__(self):
-		self.inventory = [items.Rock(),
-						items.Dagger(),
-						items.Crusty_Bread()]
-		self.gold = 5
-		self.hp = 100
+		self.inventory = [items.(),
+						items.Micropipette(),
+						items.Pizza()]
+		self.gold = 10	
+		self.hp = 200
 		self.x = 2
 		self.y = 3
 
